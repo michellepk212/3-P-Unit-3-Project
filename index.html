@@ -1,16 +1,16 @@
 <!-- Unit 3 Project
 Requirements
-[  ] Two External Links
-[  ] Table (minimum 2 Columns by 3 Rows)
-[  ] Three CSS Rules
-[  ] Three Images
+[yes  ] Two External Links
+[yes  ] Table (minimum 2 Columns by 3 Rows)
+[yes  ] Three CSS Rules
+[yes  ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
 [ no ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
-[ no ] Feature 5 - Include at least two Internal links
+[ yes] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
@@ -41,11 +41,17 @@ Select ONE Additional Feature to Add
     .high {
       background-color: darkgoldenrod;
     }
-    #jen {
-      color:chocolate
+    .jen {
+      color:rgb(10, 0, 66)
     }
     #fod {
       color:aquamarine
+    }
+    #fd {
+      color:rgb(69, 153, 125)
+    }
+    .gin {
+      color:rgb(43, 226, 186)
     }
   </style>
 </head>
@@ -59,6 +65,7 @@ Select ONE Additional Feature to Add
   <ol>
     <li><a href="#food">Cheesy Eggs</a></li>
     <li><a href="#fod">Chicken Nuggets</a></li>
+    <li><a href="#fd">Deli Meat Sandwich</a></li>
   </ol>
 
   <h2 id="food">Cheesy Scrambled Eggs</h2>
@@ -69,7 +76,7 @@ Select ONE Additional Feature to Add
   </ul>
   <img
   src="https://saltandbaker.com/wp-content/uploads/2021/08/cheesy-scrambled-eggs-featured.jpg"
-  width="100">
+  width="80">
 
   <table>
     <thead>
@@ -98,7 +105,7 @@ Select ONE Additional Feature to Add
     </tbody>
   </table>
   <p> <strong>Additional needs:</strong></p>
-  <ul id="jen">
+  <ul class="jen">
     <li>Frying pan</li>
     <li>Whisk (or fork)</li>
     <li>Stove</li>
@@ -136,7 +143,7 @@ Select ONE Additional Feature to Add
     <li>Move the now scrambled eggs onto another plate and you are finished!</li>
   </ul>
   <h2 id="fod">Reheating Chicken Nuggets</h2>
-  <p><em>Source: <a href="https://40aprons.com/moms-favorite-cheesy-scrambled-eggs/">Some recipes websites</a></em></p>
+ 
   <ul class="list">
     <li>Time:15 minutes</li>
     <li>Serves: 5</li>
@@ -158,18 +165,117 @@ Select ONE Additional Feature to Add
       </tr>
       <tr class="high">
         <td>Ketchup</td>
-        <td>Half a cup</td>
+        <td>A tablespoon</td>
       </tr>
       <tr class="high">
         <td>Musturd</td>
-        <td>Quarter of a cup</td>
+        <td>A tablespoon</td>
+      </tr>
+      
+    </tbody>
+  </table>
+<p> <strong>Additional needs:</strong></p>
+  <ul class="jen">
+    <li>Oven at 350 Farenheit</li>
+    <li>Tin Foil</li>
+    <li>Oven pan</li>
+  </ul>
+
+  <p><strong>Step 1:</strong> Set up your tin foil
+  </p>
+  <ul>
+    <li>Wrap your tin foil on an oven pan</li>
+    <li>Arrange your frozen chicken nuggets on the tin foil</li>
+    <li>Set your oven to a bake setting</li>
+  </ul>
+  <p><strong>Step 2:</strong> Waiting process
+  </p>
+  <ul>
+    <li>Wait for 15-20 minutes or when the chicken nuggets are golden brown</li>
+    <li>As you wait for the chicken nuggets to cool down, set up a plate with the cooling nuggets and ketchup and mustard</li>
+    <li>Enjoy!</li>
+  </ul>
+<h2 id="fd">Deli Meat Sandwich</h2>
+
+<ul class="list">
+    <li>Time:15 minutes</li>
+    <li>Serves: 1</li>
+  </ul>
+<img 
+src="https://www.southernliving.com/thmb/UW4kKKL-_M3WgP7pkL6Pb6lwcgM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ham_Sandwich_011-1-49227336bc074513aaf8fdbde440eafe.jpg";
+width="100">
+<table>
+    <thead>
+      <tr class="high">
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="high">
+        <td>Sourdough Bread</td>
+        <td>2 slices</td>
       </tr>
       <tr class="high">
-        <td>Oil</td>
-        <td>A tablespoon</td>
+        <td>Turkey or Ham</td>
+        <td>6-12 slices</td>
+      </tr>
+      <tr class="high">
+        <td>Lettuce</td>
+        <td>2 leafs</td>
+      </tr>
+      <tr class="high">
+        <td>Tomatos</td>
+        <td>Half of a tomato</td>
+      </tr>
+      <tr class="high">
+        <td>Pickles</td>
+        <td>8 slices</td>
+      </tr>
+      <tr class="high">
+        <td>Mozzarella cheese</td>
+        <td>2 slices</td>
+      </tr>
+      <tr class="high">
+        <td>Mustard</td>
+        <td>Quarter of a cup</td>
       </tr>
     </tbody>
   </table>
+  <p> <strong>Additional needs:</strong></p>
+  <ul class="jen">
+    <li>Oven at toast setting</li>
+    <li>Butter knife</li>
+    <li>Oven pan</li>
+  </ul>
+
+  <p class="gin"><strong>Step 1:</strong> Set up your tin foil
+  </p>
+  <ul class="gin">
+    <li>Wrap your tin foil around an overn pan</li>
+    <li>Place your bread onto the tray and toast it for 4 minutes</li>
+  </ul>
+   <p class="gin"><strong>Step 2:</strong> Prepare your ingredients
+  </p>
+  <ul class="gin">
+    <li>Start by washing all your vegetables over cold water</li>
+    <li>Prepare your deli meat and cheese by slicing them eveningly</li>
+    <li>Once all the vegetables are washed, begin slicing them into equal pieces</li>
+  </ul>
+  <p class="gin"><strong>Step 2:</strong> Setting up the sandwich
+  </p>
+  <ul class="gin">
+    <li>Take your bread out of the oven</li>
+    <li>Start by pouring mustard onto the bread and spreading it with a butter knife</li>
+    <li>Then place your deli meat and cheese</li>
+    <li>Place the vegetables on the bread on top of the deli meat and cheese</li>
+    <li>Fold your sandiwch together and slice in half</li>
+    <li>Enjoy!</li>
+  </ul>
+
+   <p><em>Source: <a href="https://40aprons.com/moms-favorite-cheesy-scrambled-eggs/">More egg recipes</a></em></p>
+   <p><em>Source: <a href="https://www.acozykitchen.com/homemade-chicken-nuggets"> Making your own chicken nuggets</a></em></p>
+   <p><em>Source: <a href="https://kingshawaiian.com/blog/deli-sandwiches"> More sandwiches</a></em></p>
 </body>
 
 </html>
